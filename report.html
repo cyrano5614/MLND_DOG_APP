@@ -11717,7 +11717,7 @@ ul.typeahead-list > li > a {
 <style type="text/css">
     div#notebook {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  line-height: 170%;
  color: #ebdbb2;
  -webkit-font-smoothing: antialiased !important;
@@ -11725,7 +11725,7 @@ ul.typeahead-list > li > a {
 body,
 div.body {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  color: #ebdbb2;
  background-color: #1d2021;
  background: #1d2021;
@@ -11941,14 +11941,14 @@ body > #header {
  z-index: 100;
 }
 .list_container {
- font-size: 10pt;
+ font-size: 13pt;
  color: #ebdbb2;
  border: none;
  text-shadow: none !important;
 }
 .list_container > div {
  border-bottom: 1px solid rgba(70,70,70,.4);
- font-size: 10pt;
+ font-size: 13pt;
 }
 .list_header > div,
 .list_item > div {
@@ -11961,7 +11961,7 @@ body > #header {
  margin-left: -1px;
  vertical-align: middle;
  line-height: 22px;
- font-size: 10pt;
+ font-size: 13pt;
 }
 .item_icon {
  color: #83a598;
@@ -12007,7 +12007,7 @@ body > #header {
 }
 button#tree-selector-btn {
  height: 34px;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  border: none;
  left: 0px;
  border-radius: 0px !important;
@@ -12053,7 +12053,7 @@ div.list_item:hover {
  background-color: rgba(70,70,70,.2);
 }
 .breadcrumb > li {
- font-size: 9.0pt;
+ font-size: 12.0pt;
  color: #ebdbb2;
  border: none;
  text-shadow: none !important;
@@ -12141,7 +12141,7 @@ ul#tabs a {
 }
 div#notebook {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  padding-top: 4px;
 }
 .notebook_app {
@@ -12184,7 +12184,7 @@ div#header-container {
 #header,
 .edit_app #header {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  box-shadow: none;
  background-color: #1d2021;
 }
@@ -12226,7 +12226,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  background-color: #1d2021;
  border-color: rgba(70,70,70,.4);
  line-height: 1.5em;
@@ -12234,7 +12234,7 @@ p.navbar-text.indicator_area {
 }
 .navbar-default .navbar-nav > li > a {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  color: #ebdbb2;
  display: block;
  line-height: 1.5em;
@@ -12247,7 +12247,7 @@ p.navbar-text.indicator_area {
  background-color: rgba(70,70,70,.4);
  border-color: rgba(70,70,70,.4);
  line-height: 1.5em;
- transition: 200ms ease;
+ transition: 80ms ease;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -12256,7 +12256,6 @@ p.navbar-text.indicator_area {
  background-color: #282828;
  border-color: #282828;
  line-height: 1.5em;
- transition: 200ms ease;
 }
 .navbar-nav > li > .dropdown-menu {
  margin-top: 0px;
@@ -12343,7 +12342,7 @@ div.notification_widget.info,
  color: #83a598;
 }
 .item_buttons .kernel-name {
- font-size: 10pt;
+ font-size: 13pt;
  color: #83a598;
 }
 .running_notebook_icon:before {
@@ -12511,30 +12510,29 @@ i.fa.fa-icon {
 }
 .dropdown-menu {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  box-shadow: none;
  padding: 0px;
  text-align: left;
- border: 2px solid rgba(70,70,70,.5);
+ border: none;
  background-color: #282828;
  background: #282828;
  line-height: 1;
 }
 .dropdown-menu:hover {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  box-shadow: none;
  padding: 0px;
  text-align: left;
- border: 2px solid rgba(70,70,70,.5);
+ border: none;
  background-color: #282828;
  box-shadow: none;
  line-height: 1;
 }
 .dropdown-menu > li > a {
  font-family: sans-serif;
- font-size: 9.0pt;
- line-height: 1.1;
+ font-size: 12.0pt;
  display: block;
  padding: 10px 20px 9px 10px;
  color: #ebdbb2;
@@ -12556,7 +12554,8 @@ i.fa.fa-icon {
  background-color: rgba(70,70,70,.5);
 }
 .dropdown-submenu > .dropdown-menu {
- top: 0px;
+ display: none;
+ top: 2px !important;
  left: 100%;
  margin-top: -2px;
  margin-left: 0px;
@@ -12567,19 +12566,19 @@ i.fa.fa-icon {
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  font-weight: normal;
  color: #3c3836;
  padding: none;
  display: block;
  clear: both;
- line-height: 1.1;
  white-space: nowrap;
 }
 .dropdown-submenu > a:after {
  color: #ebdbb2;
  margin-right: -16px;
  margin-top: 0px;
+ display: inline-block;
 }
 .dropdown-submenu:hover > a:after,
 .dropdown-submenu:active > a:after,
@@ -12587,6 +12586,7 @@ i.fa.fa-icon {
 .dropdown-submenu:visited > a:after {
  color: #d5c4a1;
  margin-right: -16px;
+ display: inline-block !important;
 }
 div.kse-dropdown > .dropdown-menu,
 .kse-dropdown > .dropdown-menu {
@@ -12680,7 +12680,7 @@ div.kse-dropdown > .dropdown-menu,
 .item_buttons > .btn,
 .item_buttons > .btn-group,
 .item_buttons > .input-group {
- font-size: 10pt;
+ font-size: 13pt;
  background: transparent;
  background-color: transparent;
  border: 0px solid #1b1d1e;
@@ -12803,7 +12803,7 @@ div.dynamic-buttons > button,
 }
 .dropdown-header {
  font-family: sans-serif !important;
- font-size: 10pt !important;
+ font-size: 13pt !important;
  color: #d5c4a1 !important;
  border-bottom: none !important;
  padding: 0px !important;
@@ -12866,7 +12866,7 @@ fieldset[disabled] .btn-default.focus {
 }
 .input-group-addon {
  padding: 2px 5px;
- font-size: 10pt;
+ font-size: 13pt;
  font-weight: normal;
  height: auto;
  color: #ebdbb2;
@@ -12946,7 +12946,7 @@ div.modal-footer > button:hover {
 }
 .modal-content {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  position: relative;
  background: #1b1d1e;
  background-color: #1b1d1e;
@@ -12957,7 +12957,7 @@ div.modal-footer > button:hover {
 }
 .modal-header {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  color: #ebdbb2;
  background: #1b1d1e;
  background-color: #1b1d1e;
@@ -13001,7 +13001,7 @@ div.panel-default,
 .panel,
 .panel-default {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  background-color: #282828;
  color: #ebdbb2;
  margin-bottom: 14px;
@@ -13047,6 +13047,9 @@ div.form-control,
  border-color: rgba(70,70,70,.5);
  margin-bottom: 0px;
 }
+.form-group .input-group {
+ float: left;
+}
 input,
 button,
 select,
@@ -13057,7 +13060,7 @@ textarea {
 }
 select.form-control.select-xs {
  height: 33px;
- font-size: 10pt;
+ font-size: 13pt;
 }
 .toolbar select,
 .toolbar label {
@@ -13199,19 +13202,11 @@ div.CodeMirror-sizer {
  padding-bottom: 0px;
  margin-top: 0px;
 }
-div.cell.selected:before {
+div.cell.selected:before,
+.edit_mode div.cell.selected:before,
+div.cell.selected:before,
+div.cell.selected.jupyter-soft-selected:before {
  background: #282828;
- border: none;
- border-radius: 3px;
- position: absolute;
- display: block;
- top: 0px;
- left: 0px;
- width: 0px;
- height: 100%;
-}
-.edit_mode div.cell.selected:before {
- background: #1d2021;
  border: none;
  border-radius: 3px;
  position: absolute;
@@ -13235,16 +13230,10 @@ div.cell.code_cell.selected .input {
  border-left: 5px solid #fabd2f !important;
  border-radius: 3px;
 }
-div.cell.selected:before,
-div.cell.selected.jupyter-soft-selected:before {
- position: absolute;
- display: block;
- top: -1px;
- left: -1px;
- width: 5px;
- height: calc(102%);
- content: '';
- background: transparent !important;
+.edit_mode div.cell.selected:before {
+ height: 100%;
+ border-left: 5px solid #fabd2f !important;
+ border-radius: 3px;
 }
 div.cell.jupyter-soft-selected,
 div.cell.selected.jupyter-soft-selected {
@@ -13258,18 +13247,6 @@ div.cell.selected.jupyter-soft-selected {
 }
 div.cell.selected.jupyter-soft-selected .input {
  border-left: 5px solid #282828 !important;
-}
-div.cell.selected.jupyter-soft-selected:before,
-.edit_mode div.cell.selected:before .input {
- background: #fabd2f !important;
- border: 2px solid #fabd2f !important;
- border-radius: 6px !important;
- position: absolute !important;
- display: block !important;
- top: 0px !important;
- left: 0px !important;
- width: 6px !important;
- height: 100% !important;
 }
 div.cell.selected.jupyter-soft-selected {
  border-left-color: #83a598;
@@ -13289,17 +13266,6 @@ div.cell.text_cell.selected.jupyter-soft-selected .prompt {
 }
 div.cell.text_cell.selected.jupyter-soft-selected .input_prompt {
  border-left: none !important;
-}
-div.cell.text_cell.selected.jupyter-soft-selected:before {
- background: #504945 !important;
- border: 2px solid #504945 !important;
- border-radius: 6px !important;
- position: absolute !important;
- display: block !important;
- top: 0px !important;
- left: 0px !important;
- width: 6px !important;
- height: 100% !important;
 }
 div.cell.text_cell.jupyter-soft-selected,
 div.cell.text_cell.selected.jupyter-soft-selected {
@@ -13465,7 +13431,7 @@ div.text_cell,
 div.text_cell_render pre,
 div.text_cell_render {
  font-family: sans-serif;
- font-size: -1.0pt;
+ font-size: 13pt;
  line-height: 130% !important;
  color: #ebdbb2;
  background: #282828;
@@ -13531,30 +13497,6 @@ div.edit_mode div.text_cell.unrendered {
  background-color: #282828;
  border-radius: 0px;
 }
-div.cell.text_cell.selected:before {
- background: #fabd2f;
- border: 2px solid #fabd2f;
- border-top-left-radius: 2px;
- border-bottom-left-radius: 2px;
- position: absolute;
- display: block;
- top: 0px;
- left: 0px;
- width: 5px;
- height: 100%;
-}
-.edit_mode div.cell.text_cell.selected:before {
- background: #504945;
- border: 2px solid #504945;
- border-top-left-radius: 2px;
- border-bottom-left-radius: 2px;
- position: absolute;
- display: block;
- top: 0px;
- left: 0px;
- width: 5px;
- height: 100%;
-}
 div.cell.text_cell .prompt {
  border-right: 0;
 }
@@ -13597,7 +13539,7 @@ div.text_cell.unrendered.selected .prompt {
 }
 div.rendered_html code {
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  padding-top: 3px;
  padding-left: 2px;
  color: #ebdbb2;
@@ -13613,7 +13555,7 @@ samp {
 .well code,
 code {
  font-family: monospace, monospace;
- font-size: 9pt !important;
+ font-size: 11pt !important;
  line-height: 170% !important;
  color: #ebdbb2;
  background: #323232;
@@ -13622,7 +13564,7 @@ code {
 }
 kbd {
  padding: 1px;
- font-size: 9pt;
+ font-size: 11pt;
  font-weight: 800;
  color: #ebdbb2;
  background-color: transparent !important;
@@ -13633,7 +13575,7 @@ pre {
  display: block;
  padding: 8.5px;
  margin: 0 0 9px;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  line-height: 1.42857143;
  color: #ebdbb2;
  background-color: #323232;
@@ -13653,7 +13595,7 @@ div.rendered_html {
 }
 div.rendered_html pre {
  font-family: monospace, monospace;
- font-size: 9pt !important;
+ font-size: 11pt !important;
  line-height: 170% !important;
  color: #ebdbb2;
  background: #323232;
@@ -13669,7 +13611,7 @@ div.rendered_html pre {
 div.text_cell_render pre,
 div.text_cell_render code {
  font-family: monospace, monospace;
- font-size: 9pt !important;
+ font-size: 11pt !important;
  line-height: 170% !important;
  color: #ebdbb2;
  background: #1d2021;
@@ -13713,7 +13655,7 @@ div.rendered_html h5 {
  font-size: 200%;
  text-align: center;
  font-style: normal;
- font-weight: lighter;
+ font-weight: normal;
 }
 .rendered_html h2,
 .text_cell_render h2 {
@@ -13721,28 +13663,28 @@ div.rendered_html h5 {
  font-size: 170%;
  color: #d5c4a1;
  font-style: normal;
- font-weight: lighter;
+ font-weight: normal;
 }
 .rendered_html h3,
 .text_cell_render h3 {
  font-size: 140%;
  color: #d5c4a1;
  font-style: normal;
- font-weight: lighter;
+ font-weight: normal;
 }
 .rendered_html h4,
 .text_cell_render h4 {
  font-size: 110%;
  color: #d5c4a1;
  font-style: normal;
- font-weight: lighter;
+ font-weight: normal;
 }
 .rendered_html h5,
 .text_cell_render h5 {
  font-size: 100%;
  color: #fbf1c7;
  font-style: normal;
- font-weight: lighter;
+ font-weight: normal;
 }
 hr {
  margin-top: 8px;
@@ -13823,7 +13765,7 @@ div.widget-area {
 }
 div.widget-area a {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  font-weight: normal;
  font-style: normal;
  color: #ebdbb2;
@@ -13832,7 +13774,7 @@ div.widget-area a {
 div.widget-area a:hover,
 div.widget-area a:focus {
  font-family: sans-serif;
- font-size: 9.0pt;
+ font-size: 12.0pt;
  font-weight: normal;
  font-style: normal;
  color: #fbf1c7;
@@ -14043,13 +13985,13 @@ span.rendered_html code {
  padding-right: 0px;
 }
 .nbext-filter-menu {
- max-height: 50vh;
+ max-height: 55vh !important;
  overflow-y: auto;
  outline: none;
- border: 2px solid rgba(70,70,70,.5);
+ border: none;
 }
 .nbext-filter-menu:hover {
- border: 2px solid rgba(70,70,70,.5);
+ border: none;
 }
 .alert-warning {
  background-color: #282828;
@@ -14215,7 +14157,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
 }
 input.raw_input {
  font-family: monospace, monospace;
- font-size: 9pt !important;
+ font-size: 11pt !important;
  color: #ebdbb2;
  background-color: #323232;
  border-color: #2f2f2f;
@@ -14303,7 +14245,7 @@ body > div.modal.cmd-palette.typeahead-field {
 .typeahead-dropdown,
 .typeahead-list {
  font-family: sans-serif;
- font-size: 10pt;
+ font-size: 13pt;
  color: #ebdbb2;
  background-color: #303030;
  border: none;
@@ -14389,6 +14331,15 @@ body > div.modal.cmd-palette.in > div {
  border-color: #b8bb26;
  border-radius: 0px;
 }
+.jupyter-dashboard-menu-item.selected::before {
+ font-family: 'FontAwesome' !important;
+ content: '\f00c' !important;
+ position: absolute !important;
+ color: #d5c4a1 !important;
+ left: 0px !important;
+ top: 13px !important;
+ font-size: 12px !important;
+}
 .shortcut_key,
 span.shortcut_key {
  display: inline-block;
@@ -14439,7 +14390,7 @@ div#short-key-bindings-intro.well,
 }
 .terminal-app .terminal {
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  line-height: 170%;
  color: #ebdbb2;
  background: #282828;
@@ -14555,7 +14506,7 @@ div#pager .ui-resizable-handle {
 div.CodeMirror,
 div.CodeMirror pre {
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  line-height: 170%;
  color: #ebdbb2;
 }
@@ -14617,7 +14568,7 @@ div.js-error {
 }
 .ipython_tooltip {
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  line-height: 170%;
  border: 2px solid #141414;
  background: #282828;
@@ -14631,7 +14582,7 @@ div.js-error {
 }
 .ipython_tooltip .tooltiptext pre {
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  line-height: 170%;
  background: #282828;
  background-color: #282828;
@@ -14653,7 +14604,7 @@ div.tooltiptext.bigtooltip {
 }
 .cm-s-ipython.CodeMirror {
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  background: #282828;
  color: #ebdbb2;
  border-radius: 2px;
@@ -14876,12 +14827,15 @@ body :focus .MathJax {
  margin-left: 2px;
  overflow: auto;
  font-family: monospace, monospace;
- font-size: 9pt;
+ font-size: 11pt;
  color: #ebdbb2;
  width: auto;
 }
 div#maintoolbar {
- display: none !important;
+ margin-left: 8px !important;
+}
+.toolbar.container {
+ width: 100% !important;
 }
 #header-container {
  display: none !important;
@@ -14966,9 +14920,8 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Artificial-Intelligence-Nanodegree">Artificial Intelligence Nanodegree<a class="anchor-link" href="#Artificial-Intelligence-Nanodegree">&#182;</a></h1><h2 id="Convolutional-Neural-Networks">Convolutional Neural Networks<a class="anchor-link" href="#Convolutional-Neural-Networks">&#182;</a></h2><h2 id="Project:-Write-an-Algorithm-for-a-Dog-Identification-App">Project: Write an Algorithm for a Dog Identification App<a class="anchor-link" href="#Project:-Write-an-Algorithm-for-a-Dog-Identification-App">&#182;</a></h2><hr>
 <p>In this notebook, some template code has already been provided for you, and you will need to implement additional functionality to successfully complete this project. You will not need to modify the included code beyond what is requested. Sections that begin with <strong>'(IMPLEMENTATION)'</strong> in the header indicate that the following block of code will require additional functionality which you must provide. Instructions will be provided for each section, and the specifics of the implementation are marked in the code block with a 'TODO' statement. Please be sure to read the instructions carefully!</p>
-<blockquote><p><strong>Note</strong>: Once you have completed all of the code implementations, you need to finalize your work by exporting the iPython Notebook as an HTML document. Before exporting the notebook to html, all of the code cells need to have been run so that reviewers can see the final implementation and output. You can then export the notebook by using the menu above and navigating to  \n",
+<p><strong>Note</strong>: Once you have completed all of the code implementations, you need to finalize your work by exporting the iPython Notebook as an HTML document. Before exporting the notebook to html, all of the code cells need to have been run so that reviewers can see the final implementation and output. You can then export the notebook by using the menu above and navigating to  \n",
     "<strong>File -&gt; Download as -&gt; HTML (.html)</strong>. Include the finished document along with this notebook as your submission.</p>
-</blockquote>
 <p>In addition to implementing code, there will be questions that you must answer which relate to the project and your implementation. Each section where you will answer a question is preceded by a <strong>'Question X'</strong> header. Carefully read each question and provide thorough answers in the following text boxes that begin with <strong>'Answer:'</strong>. Your project submission will be evaluated based on your answers to each of the questions and the implementation you provide.</p>
 <blockquote><p><strong>Note:</strong> Code and Markdown cells can be executed using the <strong>Shift + Enter</strong> keyboard shortcut.  Markdown cells can be edited by double-clicking the cell to enter edit mode.</p>
 </blockquote>
@@ -25564,7 +25517,16 @@ AABJRU5ErkJggg==
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Question 2:</strong> This algorithmic choice necessitates that we communicate to the user that we accept human images only when they provide a clear view of a face (otherwise, we risk having unneccessarily frustrated users!). In your opinion, is this a reasonable expectation to pose on the user? If not, can you think of a way to detect humans in images that does not necessitate an image with a clearly presented face?</p>
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong>
+I think it is a reasonable expectation to pose on the user to detect human vs dog in an image.  If the condition is not plausible, we could train a CNN to train on partial faces to determine human.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>We suggest the face detector from OpenCV as a potential way to detect human images in your algorithm, but you are free to explore other approaches, especially approaches that make use of deep learning :).  Please use the code cell below to design and test your own face detection algorithm.  If you decide to pursue this <em>optional</em> task, report performance on each of the datasets.</p>
 
 </div>
@@ -27288,7 +27250,8 @@ O3Uip3Zqp/ZE9v8BTLLQrfrNdecAAAAASUVORK5CYII=
 <p>We have imported some Python modules to get you started, but feel free to import as many modules as you need.  If you end up getting stuck, here's a hint that specifies a model that trains relatively fast on CPU and attains &gt;1% test accuracy in 5 epochs:</p>
 <p><img src="images/sample_cnn.png" alt="Sample CNN"></p>
 <p><strong>Question 4:</strong> Outline the steps you took to get to your final CNN architecture and your reasoning at each step.  If you chose to use the hinted architecture above, describe why you think that CNN architecture should work well for the image classification task.</p>
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> 
+I chose the initially work with the hinted CNN architecture which is a simple sequential three layer network.  Each layer as it progresses gets deeper to extract more complicated shapes while including max pooling layers in between to down-sample, thus reducing its dimensionality and provide basic translation invariance.  Each layer uses 'Relu' activation except the last layer for classification.  After the convolution layers to extract features maps, the layer is flattened for classification before final layer.</p>
 
 </div>
 </div>
@@ -31613,7 +31576,8 @@ test_{network} = bottleneck_features['test']</code></pre>
 
 </code></pre>
 <p><strong>Question 5:</strong> Outline the steps you took to get to your final CNN architecture and your reasoning at each step.  Describe why you think the architecture is suitable for the current problem.</p>
-<p><strong>Answer:</strong></p>
+<p><strong>Answer:</strong> 
+I have tried all the pretrained models for transfer learning.  I chose to go with Xception for combination performance of speed and accuracy.  After the bottleneck features were loaded, GlobalAveragePooling layer was added to further reduce overfitting and also act as a flattening function.  The final layer was added with softmax activation function to return the classified results as probability.</p>
 
 </div>
 </div>
